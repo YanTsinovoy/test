@@ -1,0 +1,27 @@
+.header {
+	width: 100%;
+
+	&__nav {
+		display: block;
+	}
+
+	&__list {
+		list-style: none;
+		display: flex;
+		margin: 0;
+		padding: 0;
+	}
+
+	&__item {
+		padding: 2rem;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: $color-black;
+		font-size: 1.4rem;
+		&:hover {
+			color: red;
+		}
+	}
+}
